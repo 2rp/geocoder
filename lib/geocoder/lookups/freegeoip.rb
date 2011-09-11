@@ -32,7 +32,7 @@ module Geocoder::Lookup
     end
 
     def query_url(query, reverse = false)
-      "http://freegeoip.net/json/#{query}"
+      "http://freegeoip.appspot.com/json/#{query}"
     end
   end
 end
