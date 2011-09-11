@@ -12,19 +12,19 @@ module Geocoder::Result
     end
 
     def state
-      @data['region_name']
+      @data['regionname']
     end
 
     def state_code
-      @data['region_code']
+      @data['regioncode']
     end
 
     def country
-      @data['country_name']
+      @data['countryname']
     end
 
     def country_code
-      @data['country_code']
+      @data['countrycode']
     end
 
     def postal_code
