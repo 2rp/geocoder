@@ -54,7 +54,7 @@ module Geocoder
     class Base
       private #-----------------------------------------------------------------
       def read_fixture(file)
-        File.read(File.join("test", "fixtures", file)).strip.gsub(/\n\s*/, "")
+        File.read(File.join("test", "fixtures", file), :encoding => "UTF-8").strip.gsub(/\n\s*/, "")
       end
     end
 
